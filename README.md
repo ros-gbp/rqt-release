@@ -1,3 +1,28 @@
+## rqt (jade) - 0.2.14-0
+
+The packages in the `rqt` repository were released into the `jade` distro by running `/usr/bin/bloom-release -r jade -t jade rqt` on `Thu, 30 Apr 2015 00:41:44 -0000`
+
+These packages were released:
+- `rqt`
+- `rqt_gui`
+- `rqt_gui_cpp`
+- `rqt_gui_py`
+
+Version of package(s) in repository `rqt`:
+- upstream repository: https://github.com/ros-visualization/rqt.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.2.14-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## rqt (hydro) - 0.2.14-1
 
 The packages in the `rqt` repository were released into the `hydro` distro by running `/usr/bin/bloom-release -r hydro -t hydro rqt` on `Tue, 22 Jul 2014 21:34:06 -0000`
