@@ -1,6 +1,6 @@
 <package>
   <name>rqt</name>
-  <version>0.2.14</version>
+  <version>0.3.0</version>
   <description>rqt is a Qt-based framework for GUI development for ROS. It consists of three parts/metapackages<br />
     <ul>
      <li>rqt (you're here)</li>
@@ -19,12 +19,12 @@
 
   <author>Dirk Thomas</author>
   <author>Dorian Scholz</author>
-  <author email="ablasdel@willowgarage.com">Aaron Blasdel</author>
+  <author>Aaron Blasdel</author>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <run_depend>rqt_gui</run_depend>
-  <run_depend>rqt_gui_cpp</run_depend>
-  <run_depend>rqt_gui_py</run_depend>
+  <run_depend version_gte="0.3.0">rqt_gui</run_depend>
+  <run_depend version_gte="0.3.0">rqt_gui_cpp</run_depend>
+  <run_depend version_gte="0.3.0">rqt_gui_py</run_depend>
 
   <export>
     <metapackage/>
