@@ -2,7 +2,7 @@
 Changelog for package rqt_py_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.4.8 (2017-04-28)
+0.5.0 (2017-04-24)
 ------------------
 * migrated from `rqt_common_plugins` repo
 
