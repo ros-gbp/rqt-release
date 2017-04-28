@@ -1,3 +1,31 @@
+## rqt (kinetic) - 0.5.0-0
+
+The packages in the `rqt` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -r kinetic -t kinetic rqt` on `Fri, 28 Apr 2017 17:52:10 -0000`
+
+These packages were released:
+- `rqt`
+- `rqt_gui`
+- `rqt_gui_cpp`
+- `rqt_gui_py`
+- `rqt_py_common`
+
+Version of package(s) in repository `rqt`:
+
+- upstream repository: https://github.com/ros-visualization/rqt.git
+- release repository: https://github.com/ros-gbp/rqt-release.git
+- rosdistro version: `0.3.2-0`
+- old version: `0.3.2-0`
+- new version: `0.5.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## rqt (jade) - 0.4.8-0
 
 The packages in the `rqt` repository were released into the `jade` distro by running `/usr/bin/bloom-release -r jade -t jade rqt` on `Fri, 28 Apr 2017 17:47:07 -0000`
