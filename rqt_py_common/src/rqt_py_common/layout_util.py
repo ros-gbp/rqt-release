@@ -33,7 +33,7 @@
 # Author: Isaac Saito
 
 from python_qt_binding.QtCore import Qt
-from python_qt_binding.QtWidgets import QWidgetItem
+from python_qt_binding.QtWidgets import QWidgetItem, QSpacerItem
 import roslib
 import rospy
 
@@ -65,10 +65,9 @@ class LayoutUtil(object):
             divisor = (i_widget + colors_num) % colors_num
             i_widget += 1
 
-            rospy.logdebug('LayoutUtil divisor={} i_widget={} colors_num={}'.format(
-                                                                   divisor,
-                                                                   i_widget,
-                                                                   colors_num))
+            rospy.logdebug('LayoutUtil divisor={} i_widget={} colors_num={}'.format(divisor,
+                                                                                    i_widget,
+                                                                                    colors_num))
 
             p.setColor(w.backgroundRole(), colors_alter[divisor])
             w.setPalette(p)
