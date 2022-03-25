@@ -1,6 +1,6 @@
 <package>
   <name>rqt_py_common</name>
-  <version>0.5.2</version>
+  <version>0.5.3</version>
   <description>
     rqt_py_common provides common functionality for rqt plugins written in Python.
     Despite no plugin is provided, this package is part of the rqt_common_plugins
@@ -11,13 +11,14 @@
     should not introduce any special dependencies beside "ros_base".
   </description>
   <maintainer email="scholz@sim.tu-darmstadt.de">Dorian Scholz</maintainer>
+  <maintainer email="michael.jeronimo@openrobotics.org">Michael Jeronimo</maintainer>
   <license>BSD</license>
-
   <url type="website">http://ros.org/wiki/rqt_py_common</url>
   <url type="repository">https://github.com/ros-visualization/rqt_common_plugins</url>
   <url type="bugtracker">https://github.com/ros-visualization/rqt_common_plugins/issues</url>
   <author>Dorian Scholz</author>
   <author>Isaac Saito</author>
+  <author>Dirk Thomas</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 
