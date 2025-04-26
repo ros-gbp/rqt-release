@@ -1,3 +1,31 @@
+## rqt (noetic) - 0.5.5-1
+
+The packages in the `rqt` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic rqt` on `Sat, 26 Apr 2025 21:41:31 -0000`
+
+These packages were released:
+- `rqt`
+- `rqt_gui`
+- `rqt_gui_cpp`
+- `rqt_gui_py`
+- `rqt_py_common`
+
+Version of package(s) in repository `rqt`:
+
+- upstream repository: https://github.com/ros-visualization/rqt.git
+- release repository: https://github.com/ros-gbp/rqt-release.git
+- rosdistro version: `0.5.4-1`
+- old version: `0.5.4-1`
+- new version: `0.5.5-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## rqt (noetic) - 0.5.4-1
 
 The packages in the `rqt` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic rqt` on `Wed, 09 Apr 2025 23:23:22 -0000`
